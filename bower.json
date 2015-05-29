@@ -1,0 +1,20 @@
+{
+  "name": "angular",
+  "version": "0.0.a",
+  "homepage": "https://github.com/justincarb/angular",
+  "authors": [
+    "direcode 2 <direcode@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.0"
+  }
+}
