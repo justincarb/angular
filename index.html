@@ -1,17 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Angular JS</title>
-	<link rel="stylesheet" href="assets/stylesheets/css/style.css">
-</head>
-<body>
-	<div class="container" ng-app="">
-		<p>What is your name</p> : <input type="text" ng-model="name">
-		<h1> hello {{name}}</h1>
-		<h3 ng-bind ="name"></h3>
-	</div>
-
+<!doctype html>
+<html ng-app = "myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>AngularJS Email App</title>
+    <link href="assets/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="container">
+	  <div class="row">
+		    <div class="col-md-12" ng-controller="nameCtrl">
+		        Welcome {{firstname}} {{lastname}}</p>
+		        <input type="text" ng-model="firstname">
+		         <input type="text" ng-model="lastname">
+		    </div>
+	   </div>
+   </div>
+	<script src="assets/components/jquery/dist/jquery.min.js"> </script>
 	<script src="assets/components/angular/angular.min.js"> </script>
-</body>
+	<script src="assets/components/bootstrap/dist/js/bootstrap.min.js"> </script>
+	<script src="assets/js/script.js"> </script>
+  </body>
 </html>
